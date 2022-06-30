@@ -4,7 +4,7 @@ document.getElementById('btn-confirm').addEventListener('click', () => {
     console.log(userActual)
     console.log(userOffer)
 
-    document.querySelector('.user-actual').innerHTML = `Custo do sistema atual em 12 meses R$ ${userActual},00`
-    document.querySelector('.user-offer').innerHTML = `Custo do sistema Vale Up em 12 meses R$ ${userOffer},00. <span>Você terá uma economia de R$${userActual - userOffer},00</span>`
+    document.querySelector('.user-actual').innerHTML = `Custo do sistema atual em 12 meses: R$ ${userActual},00`
+    document.querySelector('.user-offer').innerHTML = `Custo do sistema Vale Up em 12 meses: R$ ${userOffer},00. <br><span>Você terá uma economia de R$${userActual - userOffer},00</span>`
 
 })

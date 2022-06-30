@@ -6,21 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculador de Economia - Vale Up</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h2>Vale Up</h2>
-    <input type="text" id="input-actual" placeholder="Insira o valor de mensalidade atual">
-    <br><br>
-    <input type="text" id="input-offer" placeholder="Insira o valor negociado">
-    <br><br>
-    <input type="button" value="Confirmar" id="btn-confirm">
+    <div class="main-card">
+        <img src="./images/logo.png" alt="logo Vale Up">
+        <h2>Orçamento Rápido</h2>
+        <p>Informe os valores de mensalidade abaixo</p>
+        <input type="text" id="input-actual" placeholder="Insira o valor atual">
+        <br><br>
+        <input type="text" id="input-offer" placeholder="Insira o valor negociado">
+        <br><br>
+        <input type="button" value="Confirmar" id="btn-confirm">
 
-    <div class="container">
-        <div class="user-actual"></div>
-        <div class="user-offer"></div>
+        <div class="container">
+            <div class="user-actual"></div>
+            <div class="user-offer"></div>
+        </div>
     </div>
-
     <script type="text/javascript" src="./index.js"></script>
 </body>
 
