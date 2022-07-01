@@ -19,11 +19,24 @@
         <img src="./images/logo.png" alt="logo Vale Up">
         <h2>Orçamento Rápido</h2>
         <p>Informe os valores de mensalidade abaixo</p>
-        <input type="text" id="input-actual" placeholder="Insira o valor atual">
+        <p>Valor da mensalidade atual</p>
+        <input type="text" id="input-actual" placeholder="valor de mensalidade atual">
+        <p>Ainda paga a implantação?</p>
+        <form action="">
+        <input type="radio" name="option" id ="radio-yes" value="yes"><label for="radio-yes">Sim</label>
+        <input type="radio" name="option" id ="radio-no" value="no" checked><label for="radio-no">Não</label></form>
+        <p>Valor a pagar de implantação</p>
+        <input type="text" id="input-deployment-expenses" placeholder="valor restante de implantação" disabled="">
         <br><br>
-        <input type="text" id="input-offer" placeholder="Insira o valor negociado">
+
+        <p>Valor da mensalidade negociada</p>
+        <input type="text" id="input-offer" placeholder="mensalidade negociada">
+        <br>
+        <p>Valor da implantação negociada</p>
+        <input type="text" id="input-deployment-costs" placeholder="implantação negociada">
         <br><br>
         <input type="button" value="Confirmar" id="btn-confirm">
+
 
         <div class="container">
             <div class="user-actual"></div>

@@ -16,6 +16,7 @@ html{
     justify-content: center;
     align-items: center;
     align-self: center;
+
 }
 
 h2{
@@ -96,4 +97,11 @@ p{
 
 .user-offer strong{
     color: green
+}
+
+form{
+    display: flex;
+    width: 120px;
+    align-self: center;
+    justify-content: space-between;
 }
