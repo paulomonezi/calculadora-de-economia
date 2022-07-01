@@ -4,7 +4,7 @@ html{
 
 .main-card{
     max-width: 900px;
-    height: 100vh;
+    height: 120vh;
     background-color: #E6E6E6;
     display: flex;
     flex-direction: column;
