@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Calculador de Economia - Vale Up</title>
 
     <link rel="stylesheet" href="./style.css">
@@ -23,10 +24,12 @@
         <input type="text" id="input-actual" placeholder="valor de mensalidade atual">
         <p>Ainda paga a implantação?</p>
         <form action="">
-        <input type="radio" name="option" id ="radio-yes" value="yes"><label for="radio-yes">Sim</label>
-        <input type="radio" name="option" id ="radio-no" value="no" checked><label for="radio-no">Não</label></form>
+            <input type="radio" name="option" id="radio-yes" value="yes"><label for="radio-yes">Sim</label>
+            <input type="radio" name="option" id="radio-no" value="no" checked><label for="radio-no">Não</label>
+        </form>
         <p>Valor a pagar de implantação</p>
-        <input type="text" id="input-deployment-expenses" placeholder="valor restante de implantação"  value="0" disabled="true">
+        <input type="text" id="input-deployment-expenses" placeholder="valor restante de implantação" value="0"
+            disabled="true">
         <br><br>
 
         <p>Valor da mensalidade negociada</p>
